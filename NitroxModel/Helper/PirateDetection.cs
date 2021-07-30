@@ -57,7 +57,7 @@ namespace NitroxModel.Helper
         private static void OnPirateDetected()
         {
             pirateDetected?.Invoke(null, EventArgs.Empty);
-            HasTriggered = true;
+            HasTriggered = false;
         }
     }
 }
